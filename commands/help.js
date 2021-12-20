@@ -8,7 +8,7 @@ module.exports = {
         const author = message.member;
        
         const administrator = new Discord.MessageEmbed()
-        .setTitle(`<@${author.id}>`)
+        .setTitle(`helpcompleto`)
         .setDescription('Non puoi usare questo comando perchè non sei DANI o SAMU')
         .setColor('RANDOM')
        

@@ -177,4 +177,10 @@ client.on('message', message => {
     else if(command == 'youtube'){
         client.commands.get('youtube').execute(client, message, args, Discord);
     }
+    else if(command == 'ticketcommand'){
+        client.commands.get('ticketcommand').execute(client, message, args, Discord);
+    }
+    else if(command == 'regolamento'){
+        client.commands.get('regolamento').execute(client, message, args, Discord);
+    }
 });
