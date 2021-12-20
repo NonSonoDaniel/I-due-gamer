@@ -37,6 +37,8 @@ client.once('ready', () => {
 
 
 
+
+
 const status = [
     `| $ticket |`,
     `il server`,
@@ -66,6 +68,7 @@ const status = [
         var canale = client.channels.cache.get("922224152943931453")
        canale.setName("👫| Membri: " + member.guild.memberCount) //Impostare il nome del canale
     });
+    
 
 
     
@@ -170,5 +173,8 @@ client.on('message', message => {
     }
     else if(command == 'helpcompleto'){
         client.commands.get('helpcompleto').execute(client, message, args, Discord);
+    }
+    else if(command == 'youtube'){
+        client.commands.get('youtube').execute(client, message, args, Discord);
     }
 });

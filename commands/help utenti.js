@@ -16,6 +16,7 @@ module.exports = {
             {name: 'botinfo', value: 'Visualizza le informazione del bot'},
             {name: 'avatar', value: 'Mosta l\'avatar di un utente'},
             {name: 'ticket', value: 'Ti aiuta ad aprire un ticket di assistenza'},
+            {name: 'youtube', value: 'Manda il link del canale youtube di I Due Gamer'},
             
         )
         .setImage('https://cdn.discordapp.com/attachments/922224453130272849/922229632361713744/1639914751404.png')
