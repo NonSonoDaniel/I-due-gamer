@@ -2,7 +2,7 @@ const { MessageEmbed } = require('discord.js')
 
 
 module.exports = {
-    name: 'kick',
+    name: 'regolamento',
     description: 'kicks user',
     async execute(client, message, args, Discord){
 
