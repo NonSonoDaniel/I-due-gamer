@@ -141,8 +141,8 @@ client.on('message', message => {
         client.commands.get('unban').execute(client, message, args, Discord);
     } else if(command == 'kick'){
         client.commands.get('kick').execute(client, message, args, Discord);
-    } else if(command == 'soloioesamusappiamoquestalistamoltosegreta'){
-        client.commands.get('soloioesamusappiamoquestalistamoltosegreta').execute(message, args, Discord)
+    } else if(command == 'help'){
+        client.commands.get('help').execute(message, args, Discord)
     }
     else if(command == 'serverinfo'){
         client.commands.get('serverinfo').execute(message, args);
@@ -167,5 +167,8 @@ client.on('message', message => {
     }
     else if(command == 'warn'){
         client.commands.get('warn').execute(client, message, args);
+    }
+    else if(command == 'helpcompleto'){
+        client.commands.get('helpcompleto').execute(client, message, args, Discord);
     }
 });
