@@ -5,7 +5,7 @@ const client = new Discord.Client(
 );
 
 
-client.login('OTIyMTgyODMyODI1MTk2NjA0.Yb9vsA.Dphcqd-G1JQoG3FzFQsWKMn5etM');
+client.login('');
 const ytch = require("yt-channel-info")
 
 
